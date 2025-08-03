@@ -1,0 +1,34 @@
+# 🛠️ Herramientas y entorno de desarrollo
+node_modules/
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# 📂 Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# 📁 Carpeta de imágenes simuladas por el usuario
+datter/assets/images/uploads/*
+!datter/assets/images/uploads/.gitkeep  # Mantiene la carpeta vacía en el repo
+
+# 🧪 Carpeta para pruebas (si se llega a usar)
+datter/tests/
+coverage/
+
+# 🔐 Variables de entorno (por si en futuro se simula OAuth con claves)
+.env
+.env.*
+.env.local
+
+# 💻 Archivos de configuración del sistema o backups
+*.old
+*.orig
+*.backup
+# 📄 Archivos de documentació
+# (si se generan automáticamente)
+# README.md, CHANGELOG.md, etc. no deberían estar aquí

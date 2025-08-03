@@ -1,4 +1,4 @@
-datter_prototype/
+datter/
 ├── assets/
 │   ├── css/
 │   │   ├── datter.css                   # Custom styles scoped with .datter-* (sin normalize)
