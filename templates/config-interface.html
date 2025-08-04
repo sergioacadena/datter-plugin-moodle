@@ -1,0 +1,45 @@
+<div class="datter-settings">
+  <h2 class="datter-settings__title">User Configuration</h2>
+
+  <form id="datter-config-form" class="datter-settings__form">
+    <!-- Avatar preview + upload -->
+    <div class="datter-settings__field">
+      <label for="datter-avatar-upload">Profile Picture</label>
+      <div class="datter-settings__avatar-preview">
+        <img id="datter-avatar-preview" src="assets/images/default-avatar.png" alt="Profile preview" />
+      </div>
+      <input type="file" id="datter-avatar-upload" accept="image/*" />
+    </div>
+
+    <!-- Name -->
+    <div class="datter-settings__field">
+      <label for="datter-name-input">Full Name</label>
+      <input type="text" id="datter-name-input" placeholder="Your name" required />
+    </div>
+
+    <!-- Email -->
+    <div class="datter-settings__field">
+      <label for="datter-email-input">Email Address</label>
+      <input type="email" id="datter-email-input" placeholder="you@example.com" required />
+    </div>
+
+    <!-- WhatsApp Phone -->
+    <div class="datter-settings__field">
+      <label for="datter-phone-input">WhatsApp Number</label>
+      <input type="tel" id="datter-phone-input" placeholder="+1234567890" required />
+    </div>
+
+    <!-- Google Calendar -->
+    <div class="datter-settings__field">
+      <label>Google Calendar</label>
+      <button type="button" id="datter-calendar-auth" class="datter-settings__button">
+        Authorize Google Calendar
+      </button>
+    </div>
+
+    <!-- Save button -->
+    <div class="datter-settings__actions">
+      <button type="submit" class="datter-settings__button datter-settings__button--primary">Save</button>
+    </div>
+  </form>
+</div>
